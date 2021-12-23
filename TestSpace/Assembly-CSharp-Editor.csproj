@@ -295,6 +295,12 @@
  <Reference Include="UnityEditor.UWP.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
@@ -303,12 +309,6 @@
  </Reference>
  <Reference Include="unityplastic">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -676,14 +676,17 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -700,26 +703,23 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management.Editor">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Subsystem.Registration">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus.Editor">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
@@ -734,10 +734,6 @@
       <Project>{1901668a-2ce5-d3c3-94dd-4325941925f5}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Facebook.Wit.Editor.csproj">
-      <Project>{be45f745-bd66-1510-3cf8-e14a7b07bbd8}</Project>
-      <Name>Facebook.Wit.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKEditor.csproj">
       <Project>{be79c924-5638-c1b2-14b2-d5d4c5d14339}</Project>
       <Name>AssistantCoreSDKEditor</Name>
@@ -750,41 +746,13 @@
       <Project>{327f0666-acfa-141a-fd64-ae061f60b2b7}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{0c5e3660-eb29-adbb-8e00-612648600720}</Project>
-      <Name>Oculus.AudioManager.Audio.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.csproj">
       <Project>{d84ca585-4406-626a-8d86-87210e6350e1}</Project>
       <Name>Oculus.Spatializer</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{b3f92d3b-45af-9ba1-221b-73014db5b530}</Project>
-      <Name>Oculus.VR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.LipSync.Editor.csproj">
-      <Project>{d85465ef-93ca-7225-529d-e9808cbd3ad1}</Project>
-      <Name>Oculus.LipSync.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
       <Project>{fc1c6dd9-9d56-55e7-59be-208abe51d0f5}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{e31f0110-f9f6-1795-22bc-298ae0b1b4dd}</Project>
-      <Name>Oculus.Spatializer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{81684bfc-2769-9934-10eb-f32e7f2d138e}</Project>
-      <Name>Oculus.Platform</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{ed099c36-37eb-7311-45d3-f1bac0673db0}</Project>
-      <Name>Oculus.Platform.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="VoiceSDK.Runtime.csproj">
-      <Project>{515bfdc0-b686-458a-da17-331e8b9d6607}</Project>
-      <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
       <Project>{7ef1ac4c-9fbb-5ad0-9234-1c014c89d2e9}</Project>
@@ -794,13 +762,45 @@
       <Project>{a01dcee3-0422-e7d0-19b0-e64ea2c28f51}</Project>
       <Name>Facebook.WitAI</Name>
     </ProjectReference>
+    <ProjectReference Include="VoiceSDK.Editor.csproj">
+      <Project>{91ac38bc-9e97-4f10-aadf-28bdbc4f0899}</Project>
+      <Name>VoiceSDK.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Facebook.Wit.Editor.csproj">
+      <Project>{be45f745-bd66-1510-3cf8-e14a7b07bbd8}</Project>
+      <Name>Facebook.Wit.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{b3f92d3b-45af-9ba1-221b-73014db5b530}</Project>
+      <Name>Oculus.VR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
+      <Project>{0c5e3660-eb29-adbb-8e00-612648600720}</Project>
+      <Name>Oculus.AudioManager.Audio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
+      <Project>{e31f0110-f9f6-1795-22bc-298ae0b1b4dd}</Project>
+      <Name>Oculus.Spatializer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.LipSync.Editor.csproj">
+      <Project>{d85465ef-93ca-7225-529d-e9808cbd3ad1}</Project>
+      <Name>Oculus.LipSync.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.csproj">
+      <Project>{81684bfc-2769-9934-10eb-f32e7f2d138e}</Project>
+      <Name>Oculus.Platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="VoiceSDK.Runtime.csproj">
+      <Project>{515bfdc0-b686-458a-da17-331e8b9d6607}</Project>
+      <Name>VoiceSDK.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.csproj">
       <Project>{019e97d2-38ce-ab7e-4da7-c2de205ed042}</Project>
       <Name>Oculus.LipSync</Name>
     </ProjectReference>
-    <ProjectReference Include="VoiceSDK.Editor.csproj">
-      <Project>{91ac38bc-9e97-4f10-aadf-28bdbc4f0899}</Project>
-      <Name>VoiceSDK.Editor</Name>
+    <ProjectReference Include="Oculus.Platform.Editor.csproj">
+      <Project>{ed099c36-37eb-7311-45d3-f1bac0673db0}</Project>
+      <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

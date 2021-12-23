@@ -299,6 +299,12 @@
  <Reference Include="UnityEditor.UWP.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
@@ -307,12 +313,6 @@
  </Reference>
  <Reference Include="unityplastic">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Users/Tonio/workspace/HyperbolicPlayground/TestSpace/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
